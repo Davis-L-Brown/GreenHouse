@@ -6,10 +6,12 @@ Basically building a user service from scratch for the first time and learning a
 so it will be a work in progress and will likely see multiple revisions/releases.
 
 Diction and Acronyms
+  - EC : Environmental Conditions - the conditions represented by the data collected
   - ECD : Environmental Condition Data - data collected from inside the greenhouse to be displayed on the application
           Environmental conditions will include:
           - Temperature
           - Atmospheric Humidity
+          - Wind Speed
           - Soil moisture
           - Soil pH
 Technology
@@ -31,3 +33,16 @@ User Interface Side
       - Will make a version for desktop and IPhone SE to start
   - Would like to develop an IOS application that I can open from my phone rather than safari
  
+Future goals: 
+  - Add EC Control from App:
+      - give users the ability to control ECs that can be controlled
+      - EG: control wind speed, temperature, humidity
+  - Automate EC corrections:
+      - Rather than just recording and presenting data, try to regulate data
+      - EG: tech in greenhouse controls the ECs
+  - Add user save ability
+      - Allow user to select plants they have in greenhouse
+        - has default settings based on research.
+            - allow users to read this research
+        - allow user to overwrite/save settings for plants
+        - Auto control ECs to match settings
