@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Greenhouse</title>
-    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/mainStyle.css">
+    <link rel="stylesheet" href="./Common/sensorModule.css">
   </head>
 
   <body>
@@ -12,10 +13,27 @@
     
     <nav></nav>
     
-    <section>
-        <div>
-            <p>paragraph</p>
+    <section class="ECData">
+      <div class='ECGroup'>
+        <div id="soilMoisture" class="sensorModule">
+          <p>Current Soil Moisture:</p>
+          <p>Target Moisture:</p>
         </div>
+        <div id="soilPH" class="sensorModule">
+          <p>Current Soil PH:</p>
+          <p>Target PH:</p>
+        </div>
+      </div>
+      <div class="ECGroup">
+        <div id="atmosHumidity" class="sensorModule">
+          <p>Atmospheric Humidity:</p>
+          <p>Targe Humidity:</p>
+        </div>
+        <div id="atmosTemp" class="sensorModule">
+          <p>Atmospheric Temperature:</p>
+          <p>Target Temperature:</p>
+        </div>
+      </div>
     </section>
     
     <footer></footer>

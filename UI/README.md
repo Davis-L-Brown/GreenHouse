@@ -5,7 +5,7 @@ Directory structure:
 
 -Root
  | - index.html
- | - /Common <!--used to store common html canvases-->
+ | - /Common <!--used to store common html/css canvases-->
    | - navBar.hmtl
    | - button.html
  | - /CSS
