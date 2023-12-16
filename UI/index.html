@@ -8,35 +8,28 @@
     <link rel="stylesheet" href="./Common/sensorModule.css">
   </head>
 
-  <body>
-    <header></header>
-    
-    <nav></nav>
-    
-    <section class="ECData">
-      <div class='ECGroup'>
-        <div id="soilMoisture" class="sensorModule">
-          <p>Current Soil Moisture:</p>
-          <p>Target Moisture:</p>
-        </div>
-        <div id="soilPH" class="sensorModule">
-          <p>Current Soil PH:</p>
-          <p>Target PH:</p>
-        </div>
+  <body>  
+    <!--entire page div-->
+    <div id="root">
+      
+      <!--header of page: logo, title-->
+      <div id="stick-header">
+        <header></header>
       </div>
-      <div class="ECGroup">
-        <div id="atmosHumidity" class="sensorModule">
-          <p>Atmospheric Humidity:</p>
-          <p>Targe Humidity:</p>
-        </div>
-        <div id="atmosTemp" class="sensorModule">
-          <p>Atmospheric Temperature:</p>
-          <p>Target Temperature:</p>
-        </div>
+      
+      <!--main body div-->
+      <div id="main-wrapper">
+        <!--side nav bar div-->
+        <div id="sidebar-content"></div>
+        <!--main content container-->
+        <main id="content"></main>
+        <!--any main wrapper info at bottom-->
+        <div id="bottom-banner"></div>
       </div>
-    </section>
-    
-    <footer></footer>
+      
+      <!--footer of the page-->
+      <footer></footer>
+    </div>
   
   </body>
 </html>
