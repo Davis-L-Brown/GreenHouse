@@ -10,47 +10,30 @@
   </head>
 
   <body>  
-    <!--entire page div-->
-    <div id="root">
-      
-      <!--header of page: logo, title-->
-      <header class="top-nav">
-        <div class="logo-container">
-          <svg class="logo" viewBox="0 -1 50 70">
-            <g stroke="#135" stroke-width="0.5" fill="none" fill-rule="nonzero">
-              <!--trunk-->
-              <path
-                d="M 15 65 C 15 65, 27 45, 24 25 
-                  M 24 25 L 24 25, 29 24 
-                  M 29 24 C 29 24, 26 45, 31 70"/>
-              <!-- left leaf -->
-              <path class="leaf"
-                d="M 24 25 C 24 25, 17 15, 7 17 C 7 17, 17 31, 24 25"/>
-              <!--middle leaf-->
-              <path class="leaf"
-                d="M 26 24.5 C 26 24.5, 37 14, 32 0 C 32 0, 23 10, 26 25"/>
-              <!--right leaf-->
-              <path class="leaf"
-                d="M 29 24 C 29 24, 44 22, 45 10 C 45 10, 40 10, 29 24"/>
-            </g>
-          </svg>
-          <img class="logo" src="./Images/nameV001.png"/>
-        </div>
-      </header>
-      
-      <!--main body div-->
-      <div id="main-wrapper">
-        <!--side nav bar div-->
-        <div id="sidebar-content"></div>
-        <!--main content container-->
-        <main id="content"></main>
-        <!--any main wrapper info at bottom-->
-        <div id="bottom-banner"></div>
+    <div class="sticky-header">
+      <div class="sticky-header-container" id="logo-container">
+        <svg id="logo" viewBox="0 0 50 70">
+          <g stroke="#135" stroke-width="0.5" fill="none" fill-rule="nonzero">
+            <!--trunk-->
+            <path
+              d="M 15 65 C 15 65, 27 45, 24 25 
+                M 24 25 L 24 25, 29 24 
+                M 29 24 C 29 24, 26 45, 31 70"/>
+            <!-- left leaf -->
+            <path class="leaf"
+              d="M 24 25 C 24 25, 17 15, 7 17 C 7 17, 17 31, 24 25"/>
+            <!--middle leaf-->
+            <path class="leaf"
+              d="M 26 24.5 C 26 24.5, 37 14, 32 0 C 32 0, 23 10, 26 25"/>
+            <!--right leaf-->
+            <path class="leaf"
+              d="M 29 24 C 29 24, 44 22, 45 10 C 45 10, 40 10, 29 24"/>
+          </g>
+        </svg>
+        <img src="./images/nameV001.png"/>
       </div>
-      
-      <!--footer of the page-->
-      <footer></footer>
+      <div class="sticky-header-container">2</div>
+      <div class="sticky-header-container">3</div>
     </div>
-  
   </body>
 </html>

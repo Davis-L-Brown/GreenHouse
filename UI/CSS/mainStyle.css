@@ -1,30 +1,26 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-    background-color: #333;
 }
 
-html, body{
-    height:100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: sans-serif;
-}
-
-header{
+body{
     width: 100%;
-    background-color: #777;
+    background: #333;
+
 }
 
-.logo-container{
-    width:100%;
-    display:flex;
+div.sticky-header{
+    width: 100;
+    max-height: 1;
+    display: flex;
     flex-direction: row;
 }
 
+div.sticky-header div{
+    width: 33%;
+}
 
-main {
-    flex: 1 0 auto;
+div.sticky-header #logo-container{
+    display: flex;
+    flex-direction: row;
 }
