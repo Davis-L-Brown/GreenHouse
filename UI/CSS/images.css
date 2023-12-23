@@ -1,0 +1,47 @@
+/* website logo in svg tags*/
+/* quick svg explanation: https://www.youtube.com/watch?v=emFMHH2Bfvo */
+/* mdn documentation: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg */
+
+svg #logo {
+    max-width: 100%;
+    min-width: 5%;
+    max-height: 100%;
+    min-height: 5%;
+}
+
+svg g {
+    stroke:black;
+    stroke-width: 1;
+}
+
+svg g#trunk{
+    fill: none;
+    fill-rule: nonzero;
+}
+
+svg g.leaf{
+    fill: green;
+}
+
+svg g.leaf#leaf-left:hover{
+    transform-origin: 24px 25px ;
+    animation: rustle forwards;
+}
+
+svg g.leaf#leaf-middle:hover{
+    transform-origin: 26px 24.5px;
+    animation: rustle forwards;
+}
+
+svg g.leaf#leaf-right:hover{
+    transform-origin: 29px 24px;
+    animation: rustle forwards;
+}
+
+
+@keyframes rustle{
+    to{
+        transform: rotate(10deg); 
+    }
+}
+
