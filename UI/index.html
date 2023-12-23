@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="./CSS/mainStyle.css">
     <link rel="stylesheet" href="./CSS/images.css">
     <link rel="stylesheet" href="./Common/sensorModule.css">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
   </head>
 
   <body>  
     <div class="sticky-header">
       
       <div class="sticky-header-container" id="logo-container">
-        
-        <div>
-          <svg id="logo" viewBox="0 0 50 70">
+        <div id="logo">
+          <svg id="logo-plant" viewBox="0 0 50 70">
             <g>
               <g id="trunk">
                 <path
@@ -23,21 +26,18 @@
                      M 24 25 L 24 25, 29 24 
                      M 29 24 C 29 24, 26 45, 31 70"/>
               </g>
-
               <g class="leaf" id="leaf-left">
                 <path class="leaflet"
                   d="M 24 25 C 24 25, 17 15, 7 17 C 7 17, 17 31, 24 25"/>
                 <path class="leaf-vein"
                   d="M 24 25 C 24 25, 17 23, 10 18"/>
               </g>
-
               <g class="leaf" id="leaf-middle">
                 <path class="leaflet"
                   d="M 26 24.5 C 26 24.5, 37 14, 32 0 C 32 0, 23 10, 26 25"/>
                 <path class="leaf-vein"
                   d="M 26 24.5 C 26 24.5, 31 14, 32 3"/>
               </g>
-
               <g class="leaf" id="leaf-right">  
                 <path class="leaflet"
                   d="M 29 24 C 29 24, 44 22, 45 10 C 45 10, 40 10, 29 24"/>
@@ -48,14 +48,19 @@
           </svg>
         </div>
         
-        <div >
-          <img id="brand" src="./images/nameV001.png"/>
+        <div id="brand" font-family: 'Source Code Pro', monospace,sans-serif;>
+          <h1>Smart</h1><h1 style="color:rgba(0, 128, 0, 0.658);">Potter</h1>
         </div>
-
       </div>
 
-      <div class="sticky-header-container" id="greenhouse-container">2</div>
-      <div class="sticky-header-container" id="user-container">3</div>
+      <div class="sticky-header-container" id="greenhouse-container">
+        2
+      </div>
+      
+      <div class="sticky-header-container" id="user-container">
+        3
+      </div>
+
     </div>
   </body>
 </html>
