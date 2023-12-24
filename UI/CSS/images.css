@@ -52,3 +52,30 @@ svg g.leaf#leaf-right:hover{
     }
 }
 
+
+
+/*Formatting and animation for settings bar*/
+/*g #hamburger-menu:hover{
+    animation: settings-click forwards;
+}
+
+svg path#bar-top:hover{
+    transform-origin: 10px 10px;
+    animation: settings-click forwards;
+}
+
+svg path#bar-middle:hover{
+    transform-origin: 50px 50px;
+    animation: settings-click forwards;
+}
+
+svg path#bar-bottom:hover{
+    transform-origin: 90px 90px;
+    animation: settings-click forwards;
+}
+
+@keyframes settings-click{
+    to{
+        transform: rotate(90deg);
+    }
+}*/
