@@ -64,7 +64,7 @@
           <svg id="user-icon" viewBox="-1 -1 122 122">
             <g>
             <circle id="bubble" cx="60" cy="60" r="60" style="stroke:black;stroke-width:1;fill:none;"/>
-            <circle id="head"   cx="60" cy="30" r="20" style="stroke:black;stroke-width:1;fill:none;"/>
+            <circle id="head"   cx="60" cy="30" r="20" style="stroke:black;stroke-width:1;fill:black;"/>
             <path id="shirt"
               d="M 30 112 
                  V 30 112, 30 60 
@@ -81,10 +81,10 @@
         </div>
 
         <div id="settings-button">
-          <div id="settings-icon-container">
+          <div id="settings-icon-container" onclick="settingsClick(this)">
             <svg id="settings-icon" viewbox="0 0 100 100">
               <g id="hamburger-menu">
-                <path id="bar-top"
+                <path id="bar-top" class="settings-icon-bar"
                   d="M 11 10 
                      H 11, 89
                      C 89 10, 90 10, 90 11
@@ -94,7 +94,7 @@
                      C 11 30, 10 30, 10 29
                      V 29, 11
                      C 10 11, 10 10, 11 10"/>
-                <path id="bar-middle"
+                <path id="bar-middle" class="settings-icon-bar"
                   d="M 11 40 
                     H 11, 89
                     C 89 40, 90, 40, 90 41
@@ -104,7 +104,7 @@
                     C 11 60, 10 60, 10 59
                     V 59, 41
                     C 10 41, 10 40, 11 40"/>
-                <path id="bar-bottom"
+                <path id="bar-bottom" class="settings-icon-bar"
                   d="M 11 70
                       H 11, 89
                       C 89 70, 90 70, 90 71
@@ -122,5 +122,6 @@
       </div>
 
     </div>
+    <script src="./JS/mainFunction.js"></script>
   </body>
 </html>
