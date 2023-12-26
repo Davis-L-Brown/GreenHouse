@@ -8,11 +8,19 @@ body{
     background: #333;
 
 }
-
+/*
+ * <div class=sticky-header
+ *    <div class=sticky-header-container id=logo-container
+ *      <div id=logo
+ *      <div id=brand
+ *    <div class=sticky-header-container id=greenhouse-container
+ *    <div class=sticky-header-container id=user-container
+ *      <div id=user-icon-container
+ */
 div.sticky-header{
     padding: 10 10 10 10;
     margin: 10 10 10 10;
-    width: 100;
+    width: 100%;
     max-height: 10%;
     display: flex;
     flex-direction: row;
@@ -21,33 +29,43 @@ div.sticky-header{
     border-radius: 2%;
 }
 
-div.sticky-header div{
+div .sticky-header-container{
     width: 33%;
-}
-
-div.sticky-header #logo-container{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-div #logo{
+div #logo-container{
+    width:30%;
     max-width: 50px;
 }
-
-div #brand{
-    display: flex;
-    flex-direction: row;
-    align-items:normal;
-}
-
-div.sticky-header #user-container{
+div #brand-container{
+    width: 70%;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-#user-icon{
+#user-icon-container{
+    width:33.33%;
     max-width: 40px;
+}
+#user-name-container{
+    width: 33.33%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn-login{
+    border: none;
+    background-color: transparent;
+    font-family: 'Roboto mono', monospace, sans-serif;
+    font-size: medium;
+    font-weight: 800;
+}
+#settings-icon-container{
+    width:33.33%;
+    max-width:20px;
 }
 
