@@ -28,22 +28,25 @@ svg path.leaf-vein{
 /* Documentation on transforms and transform-origin
  * https://developer.mozilla.org/en-US/docs/Web/CSS/transform
  * https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction 
  * good practice to place origin on specific ID's and not classes so 
  * unintended divs don't move
  */
+
+svg g.leaf:hover{
+    animation: 3s linear 1s infinite alternate rustle;
+}
+
 svg g.leaf#leaf-left:hover{
     transform-origin: 24px 25px ;
-    animation: rustle forwards;
 }
 
 svg g.leaf#leaf-middle:hover{
     transform-origin: 26px 24.5px;
-    animation: rustle forwards;
 }
 
 svg g.leaf#leaf-right:hover{
     transform-origin: 29px 24px;
-    animation: rustle forwards;
 }
 
 @keyframes rustle{
