@@ -6,7 +6,6 @@
     <title>Greenhouse</title>
     <link rel="stylesheet" href="./CSS/mainStyle.css">
     <link rel="stylesheet" href="./CSS/images.css">
-    <link rel="stylesheet" href="./Common/sensorModule.css">
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,8 +18,8 @@
   <body>  
     <div class="sticky-header">
       
-      <div class="sticky-header-container" id="logo-container">
-        <div id="logo">
+      <div class="sticky-header-container" id="logo-brand-container">
+        <div id="logo-container">
           <svg id="logo-plant" viewBox="0 0 50 70">
             <g>
               <g id="trunk">
@@ -51,7 +50,7 @@
           </svg>
         </div>
         
-        <div id="brand" style="font-family: 'Source Code Pro', monospace,sans-serif;">
+        <div id="brand-container" style="font-family: 'Source Code Pro', monospace,sans-serif;">
           <h1>Smart</h1><h1 style="color:rgba(0, 128, 0, 0.658);">Potter</h1>
         </div>
       </div>
@@ -76,48 +75,45 @@
           </svg>
         </div>
 
-        <div id="user-name" style="font-family: 'Roboto mono', monospace, sans-serif;">
+        <div id="user-name-container" style="font-family: 'Roboto mono', monospace, sans-serif;">
           <button id="btn-login">Log In</button>
         </div>
 
-        <div id="settings-button">
-          <div id="settings-icon-container" onclick="settingsClick(this)">
-            <svg id="settings-icon" viewbox="0 0 100 100">
-              <g id="hamburger-menu">
-                <path id="bar-top" class="settings-icon-bar"
-                  d="M 11 10 
-                     H 11, 89
-                     C 89 10, 90 10, 90 11
-                     V 11, 29
-                     C 90 29, 90 30, 89 30
-                     H 89, 11
-                     C 11 30, 10 30, 10 29
-                     V 29, 11
-                     C 10 11, 10 10, 11 10"/>
-                <path id="bar-middle" class="settings-icon-bar"
-                  d="M 11 40 
+        <div id="settings-icon-container" onclick="settingsClick(this)">
+          <svg id="settings-icon" viewbox="0 0 100 100">
+            <g id="hamburger-menu">
+              <path id="bar-top" class="settings-icon-bar"
+                d="M 11 10 
                     H 11, 89
-                    C 89 40, 90, 40, 90 41
-                    V 41, 59
-                    C 90 59, 90 60, 89 60
+                    C 89 10, 90 10, 90 11
+                    V 11, 29
+                    C 90 29, 90 30, 89 30
                     H 89, 11
-                    C 11 60, 10 60, 10 59
-                    V 59, 41
-                    C 10 41, 10 40, 11 40"/>
-                <path id="bar-bottom" class="settings-icon-bar"
-                  d="M 11 70
-                      H 11, 89
-                      C 89 70, 90 70, 90 71
-                      V 71, 89
-                      C 90 89, 90 90, 89 90
-                      H 91, 11
-                      C 11 90, 10 90, 10 89
-                      V 89, 71
-                      C 10 71, 10 70, 11 70"/>
-              </g>
-            </svg>
-          </div>
-
+                    C 11 30, 10 30, 10 29
+                    V 29, 11
+                    C 10 11, 10 10, 11 10"/>
+              <path id="bar-middle" class="settings-icon-bar"
+                d="M 11 40 
+                  H 11, 89
+                  C 89 40, 90, 40, 90 41
+                  V 41, 59
+                  C 90 59, 90 60, 89 60
+                  H 89, 11
+                  C 11 60, 10 60, 10 59
+                  V 59, 41
+                  C 10 41, 10 40, 11 40"/>
+              <path id="bar-bottom" class="settings-icon-bar"
+                d="M 11 70
+                    H 11, 89
+                    C 89 70, 90 70, 90 71
+                    V 71, 89
+                    C 90 89, 90 90, 89 90
+                    H 91, 11
+                    C 11 90, 10 90, 10 89
+                    V 89, 71
+                    C 10 71, 10 70, 11 70"/>
+            </g>
+          </svg>
         </div>
       </div>
 
