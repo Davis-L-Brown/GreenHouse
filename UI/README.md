@@ -3,7 +3,7 @@ https://webexpe.com/blog/folder-structure-for-web-development/
 
 good example of frontend structure:
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure
-  - inspect elements and sorces to see how everything is stored
+  - inspect elements and sources to see how everything is stored
 
 Directory structure:
 
