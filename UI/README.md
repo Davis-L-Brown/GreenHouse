@@ -7,17 +7,16 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Documen
 
 Directory structure:
 
--Root
- | - index.html
- | - /Common <!--used to store common html/css canvases-->
-   | - navBar.hmtl
-   | - button.html
- | - /CSS
-   | - bootstrap.css
-   | - mainStyle.css
- | - /JS
-   | - bootstrap.js
-   | - jQuery.js
-   | - mainFunction.js
- | - /images
- 
+-Root<br />
+| - index.html<br />
+| - /Common <!--used to store common html/css canvases--><br />
+  | - navBar.hmtl<br />
+  | - button.html<br />
+| - /CSS<br />
+  | - bootstrap.css<br />
+  | - mainStyle.css<br />
+| - /JS<br />
+  | - bootstrap.js<br />
+  | - jQuery.js<br />
+  | - mainFunction.js<br />
+| - /images<br />
